@@ -15,11 +15,11 @@ namespace Interface
         //dinner tillåter att impementera i eating och drinking metoderna 
         class dinner : drinking, eating
         {
-            public void food()
+            void eating.food()
             {
                 Console.WriteLine("I am eating food"); //implementerar in en "body" till eating
             }
-            public void beverage()
+            void drinking.beverage()
             {
                 Console.WriteLine("I am drinking a beverage"); //implementerar in en "body" till drinking
             }
